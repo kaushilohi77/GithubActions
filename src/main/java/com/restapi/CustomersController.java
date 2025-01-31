@@ -14,6 +14,7 @@ public class CustomersController {
     @GetMapping(path = "/{customerId}")
     public String getCustomerId(@PathVariable String customerId){
         return "GET request to get the customerId " + customerId ;
+
     }
 
     @PostMapping
